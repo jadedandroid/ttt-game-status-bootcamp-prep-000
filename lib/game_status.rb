@@ -40,7 +40,7 @@ end
     false
     end
   end
-  
+end
   def full?(board)
     if board.detect { |play| play == " " || play == nil}
      return false
