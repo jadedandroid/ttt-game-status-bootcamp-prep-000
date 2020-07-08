@@ -51,7 +51,7 @@ end
   def draw?(board)
    if !won?(board) && full?(board)
      ##WIN_COMBINATIONS.none?{|j| j == board}
-    return true
+     return true
     else
      return false
     end
